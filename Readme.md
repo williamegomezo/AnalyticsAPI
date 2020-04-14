@@ -14,4 +14,4 @@ Copy .env template and set in the file, the View ID value:
 `cp .env.template .env`
 
 Run:
-`python reporter_api.py`
+`python reporting_api.py`
