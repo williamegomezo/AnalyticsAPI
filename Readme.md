@@ -7,11 +7,11 @@ Activate environment:
 Install python packages:
 `pip install -r requirements.txt`
 
-Download a client secrets and place in project folder:
+Download a client secrets from the gcp project that is billing the API and place in project folder:
 `./client_secrets.json`
 
 Copy .env template and set in the file, the View ID value:
 `cp .env.template .env`
 
 Run:
-`python fetch_api.py`
+`python reporter_api.py`
